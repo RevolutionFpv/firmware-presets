@@ -158,8 +158,6 @@
       "CRSF",
       "default",
       "defaults",
-      "feedforward",
-      "ff",
       "filter",
       "filters",
       "freestyle",
@@ -172,7 +170,6 @@
       "rates",
       "rc link",
       "rc smoothing",
-      "rc_link",
       "rc_smoothing",
       "reset",
       "revolution fpv",
@@ -302,7 +299,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/Rate_sBang.txt",
-      "hash": "693117622b70f16d03e628536013ceeaa907dd04330fe4532a80aefd59cb2195",
+      "hash": "231b6bef06b3a79a41bda4d18a8081aa78ee3cbc49d85ed9be18c92e263eaf64",
       "title": "Revolution FPV Rate sBang By TalChin",
       "firmware_version": [
         "4.3"
@@ -342,26 +339,6 @@
       ],
       "author": "TalChin / Revolution FPV",
       "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "3b9253542588503388283bfc477a78e9956d9700f0f999fb8b0f749a61d7491a",
-      "title": "Reset RC link feedforward related settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "rc link",
-        "rc_link",
-        "feedforward",
-        "ff"
-      ],
-      "author": "Betaflight",
-      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",

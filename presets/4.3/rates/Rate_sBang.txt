@@ -12,7 +12,7 @@
 set tpa_breakpoint = 1250
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TPA 1500
+#$ OPTION BEGIN (CHECKED): TPA 1500
 set tpa_breakpoint = 1500
 #$ OPTION END
 
