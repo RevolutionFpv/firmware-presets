@@ -140,6 +140,7 @@
     ],
     "author": [
       "Betaflight",
+      "Cedric / Revolution FPV",
       "TalChin / Revolution FPV"
     ],
     "keywords": [
@@ -158,7 +159,7 @@
       "leds",
       "mode",
       "modes",
-      "OSD",
+      "osd",
       "pid",
       "rates",
       "rc link",
@@ -233,24 +234,27 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
-      "title": "Default 4.3 OSD settings",
+      "fullPath": "presets/4.3/osd/Osd_Analog_By_Cedric.txt",
+      "hash": "1dd247c34891fdf87a36a5601815f59040a5905a27486d92ce58fbbe823a81cb",
+      "title": "Revolution FPV OSD Analog By Cedric",
       "firmware_version": [
         "4.3"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "defaults",
-        "reset",
-        "OSD"
+        "osd",
+        "revolution fpv",
+        "revolutionFPV",
+        "TalChin",
+        "talchin",
+        "hd"
       ],
-      "author": "Betaflight",
+      "author": "Cedric / Revolution FPV",
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/Osd_HD_By_RevolutioFPV.txt",
+      "fullPath": "presets/4.3/osd/Osd_HD_By_TalChin.txt",
       "hash": "3ac7fcc9cd7eb87e79a6fc9d8df75bb3af92668c27373d75fd1c2cbce7147548",
       "title": "Revolution FPV OSD HD By TalChin",
       "firmware_version": [
