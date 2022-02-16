@@ -12,7 +12,7 @@
 
 #$ OPTION_GROUP BEGIN: Avec LQ
 #$ OPTION BEGIN (UNCHECKED): Avec GPS
-#$ INCLUDE: misc/config/OsdSatTal.txt
+#$ INCLUDE: misc/config/OsdNoSatTal.txt
 set rssi_channel = 8
 #$ OPTION END
 #$ OPTION BEGIN (UNCHECKED): Sans GPS
