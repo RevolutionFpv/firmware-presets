@@ -1,9 +1,25 @@
-#$ TITLE: Revolution FPV OSD Analog By Cedric
+#$ TITLE: Revolution FPV Rate sBang By TalChin
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: OSD
+#$ CATEGORY: RATES
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: osd, revolution fpv, revolutionFPV, Cedric, cedric, Analog
+#$ KEYWORDS: rates, revolution fpv, revolutionFPV, TalChin, talchin, Talchin
 #$ AUTHOR: Cedric / Revolution FPV
 #$ DESCRIPTION: Bienvenue dans l'expérience RevolutionFPV !
-#$ DESCRIPTION: Configuration de l'OSD avec LQ GPS RSSI a choix!
-#$ INCLUDE: misc/config/OsdDefaultCedric.txt
+#$ DESCRIPTION: Rate sBang avec choix du TPA
+#$ INCLUDE: misc/config/RatesSbangTal.txt
+
+#$ OPTION BEGIN (UNCHECKED): TPA 1250
+set tpa_breakpoint = 1250
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TPA 1500
+set tpa_breakpoint = 1500
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TPA 1600
+set tpa_breakpoint = 1600
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TPA 1700
+set tpa_breakpoint = 1700
+#$ OPTION END

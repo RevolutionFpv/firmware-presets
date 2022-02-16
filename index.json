@@ -294,23 +294,23 @@
     },
     {
       "fullPath": "presets/4.3/rates/Rate_sBang.txt",
-      "hash": "d91d42fd603a6fccd7070954a7c98c7f2e0fdce326e2a9db156e5a3494479d3e",
-      "title": "Revolution FPV OSD Analog By Cedric",
+      "hash": "693117622b70f16d03e628536013ceeaa907dd04330fe4532a80aefd59cb2195",
+      "title": "Revolution FPV Rate sBang By TalChin",
       "firmware_version": [
         "4.3"
       ],
-      "category": "OSD",
+      "category": "RATES",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "osd",
+        "rates",
         "revolution fpv",
         "revolutionFPV",
-        "Cedric",
-        "cedric",
-        "Analog"
+        "TalChin",
+        "talchin",
+        "Talchin"
       ],
       "author": "Cedric / Revolution FPV",
-      "priority": 0
+      "priority": 10000
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
