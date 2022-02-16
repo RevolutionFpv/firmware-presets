@@ -7,11 +7,3 @@
 #$ DESCRIPTION: Bienvenue dans l'expérience RevolutionFPV !
 #$ DESCRIPTION: Configuration de l'OSD avec LQ GPS RSSI a choix!
 #$ INCLUDE: misc/config/OsdDefaultCedric.txt
-
-
-#$ OPTION BEGIN (UNCHECKED): Avec GPS
-set osd_profile = 2
-#$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Sans GPS
-set osd_profile = 1
-#$ OPTION END

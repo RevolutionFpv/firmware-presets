@@ -146,8 +146,10 @@
     "keywords": [
       "actual",
       "adjustments",
+      "Analog",
       "aux",
       "basic",
+      "Cedric",
       "clear",
       "default",
       "defaults",
@@ -235,7 +237,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/Osd_Analog_By_Cedric.txt",
-      "hash": "1dd247c34891fdf87a36a5601815f59040a5905a27486d92ce58fbbe823a81cb",
+      "hash": "a03045269407280ca0df5a15c66e84cd4cb2d1a1674bbc79069be035c796eb14",
       "title": "Revolution FPV OSD Analog By Cedric",
       "firmware_version": [
         "4.3"
@@ -246,9 +248,9 @@
         "osd",
         "revolution fpv",
         "revolutionFPV",
-        "TalChin",
-        "talchin",
-        "hd"
+        "Cedric",
+        "cedric",
+        "Analog"
       ],
       "author": "Cedric / Revolution FPV",
       "priority": 0
@@ -288,6 +290,26 @@
         "actual"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rates/Rate_sBang.txt",
+      "hash": "d91d42fd603a6fccd7070954a7c98c7f2e0fdce326e2a9db156e5a3494479d3e",
+      "title": "Revolution FPV OSD Analog By Cedric",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "osd",
+        "revolution fpv",
+        "revolutionFPV",
+        "Cedric",
+        "cedric",
+        "Analog"
+      ],
+      "author": "Cedric / Revolution FPV",
       "priority": 0
     },
     {
