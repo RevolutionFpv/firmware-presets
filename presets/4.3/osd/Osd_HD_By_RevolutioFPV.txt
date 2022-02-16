@@ -1,0 +1,31 @@
+#$ TITLE: Revolution FPV OSD HD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: osd, revolution fpv, revolutionFPV, TalChin, talchin, hd
+#$ AUTHOR: TalChin / Revolution FPV
+#$ DESCRIPTION: Bienvenue dans l'expérience RevolutionFPV !
+#$ DESCRIPTION: Configuration de l'OSD avec LQ GPS RSSI a choix!
+#$ DESCRIPTION: Pour le LQ Attention de bien activer le retour via l'AUX 8 de votre Radiocommande!
+#$ DISCLAIMER: Configuration de l'OSD avec LQ GPS RSSI a choix!
+#$ WARNING: Pour le LQ Attention de bien activer le retour via l'AUX 8 de votre Radiocommande!
+
+#$ OPTION_GROUP BEGIN: Avec LQ
+#$ OPTION BEGIN (UNCHECKED): Avec GPS
+#$ INCLUDE: misc/config/OsdSatTal.txt
+set rssi_channel = 8
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Sans GPS
+#$ INCLUDE: misc/config/OsdNoSatTal.txt
+set rssi_channel = 8
+#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Avec RSSI
+#$ OPTION BEGIN (UNCHECKED): Avec GPS
+#$ INCLUDE: misc/config/OsdSatTal.txt
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Sans GPS
+#$ INCLUDE: misc/config/OsdNoSatTal.txt
+#$ OPTION END
+#$ OPTION_GROUP END
