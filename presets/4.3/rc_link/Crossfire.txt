@@ -1,0 +1,107 @@
+#$ TITLE: Revolution FPV Crossfire Link
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rc link, tracer, TBS, cfv2, crossfire, freestyle, 150Hz, 50Hz, CRSF
+#$ AUTHOR: TalChin / Revolution FPV
+#$ DESCRIPTION: Configuration du Crossfire.
+#$ DESCRIPTION: WARNING: Assurez-vous ABSOLUMENT que la case > ADC Filter n'est pas cochée sur la radio et que vos TX sont toutes à jour avec les dernières EdgeTX, OpenTX ou FreedomTX.
+#$ DESCRIPTION: Il existe actuellement 2 types de protocole Crossfire, CFV3 si vous utilisez une radio TBS et CFV2 si votre radio fonctionne avec Open/EdgeTX.
+#$ DESCRIPTION: Le Crossfire dynamique n'est pas recommandé, le verrouillage à 150Hz pour le LR ou 50Hz pour le Freestyle/Race est préférable.
+#$ INCLUDE_WARNING: misc/warnings/fr/ADC.txt
+#$ INCLUDE: misc/config/RcCrossfireDefault.txt
+
+#$ OPTION_GROUP BEGIN : Race
+
+#$ OPTION BEGIN (UNCHECKED): Tracer CFV2 for Open/EdgeTx radios Race
+
+# Tracer CFV2
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 25
+set feedforward_jitter_factor = 7
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tracer CFV3 for Tango2 and Mambo radios Race
+
+# Tracer CFV3
+set feedforward_averaging = OFF
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire locked 150Hz Race
+
+# Crossfire locked 150Hz
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 25
+set feedforward_jitter_factor = 7
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN : Freestyle
+
+#$ OPTION BEGIN (UNCHECKED): Tracer CFV2 for Open/EdgeTx radios Freestyle
+
+# Tracer CFV2
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tracer CFV3 for Tango2 and Mambo radios Freestyle
+
+# Tracer CFV3
+set feedforward_averaging = OFF
+set feedforward_smooth_factor = 50
+set feedforward_jitter_factor = 10
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire locked 150Hz Freestyle
+
+# Crossfire locked 150Hz
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire dynamic Freestyle
+
+# Crossfire dynamic
+set feedforward_averaging = 3_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire locked 50Hz Freestyle 
+
+# Crossfire locked 50Hz
+set feedforward_averaging = off
+set feedforward_smooth_factor = 0
+set feedforward_jitter_factor = 15
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN : Long Range
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire locked 50Hz LR
+
+# Crossfire locked 50Hz
+set feedforward_averaging = off
+set feedforward_smooth_factor = 50
+set feedforward_jitter_factor = 20
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire dynamic LR
+
+# Crossfire dynamic
+set feedforward_averaging = 3_POINT
+set feedforward_smooth_factor = 50
+set feedforward_jitter_factor = 10
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+

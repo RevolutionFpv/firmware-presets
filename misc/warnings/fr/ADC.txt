@@ -1,0 +1,1 @@
+WARNING: Assurez-vous ABSOLUMENT que la case > ADC Filter n'est pas cochée sur la radio et que vos TX sont toutes à jour avec les dernières EdgeTX, OpenTX ou FreedomTX.

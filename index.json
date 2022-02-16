@@ -144,19 +144,25 @@
       "TalChin / Revolution FPV"
     ],
     "keywords": [
+      "150Hz",
+      "50Hz",
       "actual",
       "adjustments",
       "Analog",
       "aux",
       "basic",
       "Cedric",
+      "cfv2",
       "clear",
+      "crossfire",
+      "CRSF",
       "default",
       "defaults",
       "feedforward",
       "ff",
       "filter",
       "filters",
+      "freestyle",
       "hd",
       "leds",
       "mode",
@@ -173,6 +179,8 @@
       "revolutionFPV",
       "switch",
       "TalChin",
+      "TBS",
+      "tracer",
       "tune",
       "vtx",
       "vtxtable"
@@ -311,6 +319,29 @@
       ],
       "author": "Cedric / Revolution FPV",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/Crossfire.txt",
+      "hash": "d867dac50ce5a035dfd5fe22ca50c44d6755d0c834c14c2b3fc79b63c70d5fb4",
+      "title": "Revolution FPV Crossfire Link",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "rc link",
+        "tracer",
+        "TBS",
+        "cfv2",
+        "crossfire",
+        "freestyle",
+        "150Hz",
+        "50Hz",
+        "CRSF"
+      ],
+      "author": "TalChin / Revolution FPV",
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
