@@ -9,23 +9,26 @@
 #$ DESCRIPTION: Pour le LQ Attention de bien activer le retour via l'AUX 8 de votre Radiocommande!
 #$ DISCLAIMER: Configuration de l'OSD avec LQ GPS RSSI a choix!
 #$ WARNING: Pour le LQ Attention de bien activer le retour via l'AUX 8 de votre Radiocommande!
+#$ INCLUDE: misc/config/OsdDefaultTal.txt
 
-#$ OPTION_GROUP BEGIN: Avec GPS
-#$ INCLUDE: misc/config/OsdNoSatTal.txt
+#$ OPTION_GROUP BEGIN : Avec GPS
 #$ OPTION BEGIN (UNCHECKED): Avec LQ
+set osd_profile = 2
 set rssi_channel = 8
 #$ OPTION END
 #$ OPTION BEGIN (UNCHECKED): Avec RSSI
+set osd_profile = 2
 set rssi_channel = 0
 #$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Sans GPS
-#$ INCLUDE: misc/config/OsdNoSatTal.txt
 #$ OPTION BEGIN (UNCHECKED): Avec LQ
-set rssi_channel = 0
+set osd_profile = 1
+set rssi_channel = 8
 #$ OPTION END
 #$ OPTION BEGIN (UNCHECKED): Avec RSSI
+set osd_profile = 1
 set rssi_channel = 0
 #$ OPTION END
 #$ OPTION_GROUP END
