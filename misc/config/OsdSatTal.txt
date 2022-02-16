@@ -1,4 +1,4 @@
-set osd_profile = 2
+set osd_profile = 1
 set rssi_channel = 0
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
