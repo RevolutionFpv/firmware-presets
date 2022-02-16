@@ -12,11 +12,11 @@
 #$ INCLUDE: misc/config/OsdDefaultTal.txt
 
 #$ OPTION_GROUP BEGIN : Avec GPS
-#$ OPTION BEGIN (UNCHECKED): Avec LQ
+#$ OPTION BEGIN (UNCHECKED): GPS Avec LQ
 set osd_profile = 2
 set rssi_channel = 8
 #$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Avec RSSI
+#$ OPTION BEGIN (UNCHECKED): GPS Avec RSSI
 set osd_profile = 2
 set rssi_channel = 0
 #$ OPTION END
