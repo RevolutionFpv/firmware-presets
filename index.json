@@ -129,14 +129,10 @@
     ],
     "category": [
       "FILTERS",
-      "LEDS",
-      "MODES",
       "OSD",
       "RATES",
       "RC_LINK",
-      "RC_SMOOTHING",
-      "TUNE",
-      "VTX"
+      "TUNE"
     ],
     "author": [
       "Betaflight",
@@ -146,99 +142,46 @@
     "keywords": [
       "150Hz",
       "50Hz",
-      "actual",
-      "adjustments",
       "Analog",
-      "aux",
       "basic",
       "Cedric",
       "cfv2",
-      "clear",
       "crossfire",
       "CRSF",
       "default",
       "defaults",
-      "filter",
-      "filters",
+      "filtre",
       "freestyle",
       "hd",
-      "leds",
-      "mode",
-      "modes",
       "osd",
       "pid",
       "rates",
       "rc link",
-      "rc smoothing",
-      "rc_smoothing",
       "reset",
       "revolution fpv",
       "revolutionFPV",
-      "switch",
       "TalChin",
       "TBS",
       "tracer",
-      "tune",
-      "vtx",
-      "vtxtable"
+      "tune"
     ]
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
-      "title": "Default 4.3 Filter settings",
+      "fullPath": "presets/4.3/filters/FiltreRevolutionFpv.txt",
+      "hash": "85ec585ccfa18e733cbfee02589ab6bcbb402b212da2f1be1d9c439caf35f140",
+      "title": "Revolution FPV Filtre By TalChin",
       "firmware_version": [
         "4.3"
       ],
       "category": "FILTERS",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "defaults",
-        "filter",
-        "filters",
-        "reset"
+        "filtre",
+        "revolutionFPV"
       ],
-      "author": "Betaflight",
+      "author": "TalChin / Revolution FPV",
       "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/leds/defaults.txt",
-      "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
-      "title": "Default 4.3 LED settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "LEDS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "leds"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
-      "title": "Default 4.3 Modes and Adjustment settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "MODES",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "mode",
-        "modes",
-        "adjustments",
-        "aux",
-        "switch"
-      ],
-      "author": "Betaflight",
-      "priority": 0
     },
     {
       "fullPath": "presets/4.3/osd/Osd_Analog_By_Cedric.txt",
@@ -278,23 +221,6 @@
         "hd"
       ],
       "author": "TalChin / Revolution FPV",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
-      "title": "Default rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "rates",
-        "actual"
-      ],
-      "author": "Betaflight",
       "priority": 0
     },
     {
@@ -341,24 +267,6 @@
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
-      "hash": "c91b7b93cf4a33a15d606a827e983f67441ac78a9b9a11f8ecfb36d772d62739",
-      "title": "Default 4.3 RC smoothing settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_SMOOTHING",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "rc smoothing",
-        "rc_smoothing"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/tune/defaults.txt",
       "hash": "a34613c8541c3bf5611d5d3596ece890b902fd8d2378e7f6a03b60a59b61230b",
       "title": "Tune defaults for Basic 4.3 TUNES",
@@ -379,41 +287,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "f771542d93f15f993d39d97f9004ede104ba7dfebff45f68863aa25f30275388",
-      "title": "Default 4.3 VTX settings",
+      "fullPath": "presets/4.3/tune/RevolutionFpvTunnig5p.txt",
+      "hash": "e61673ad6673591685f911dc4f0119f1bedaedbd42e0b70ddb74143cfc5a5021",
+      "title": "Revolution FPV Tunnig 5 pouce HD Profile By TalChin",
       "firmware_version": [
         "4.3"
       ],
-      "category": "VTX",
-      "status": "OFFICIAL",
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx"
+        "rates",
+        "revolution fpv",
+        "revolutionFPV",
+        "TalChin",
+        "talchin",
+        "Talchin"
       ],
-      "author": "Betaflight",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
-      "hash": "ca7751007ea115e4aef9cfc8051832205100ab4d0be45b9694d506f193cdb1d6",
-      "title": "Default 4.3 VTX table settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx",
-        "vtxtable"
-      ],
-      "author": "Betaflight",
-      "priority": 1000000
+      "author": "TalChin / Revolution FPV",
+      "priority": 1000000000000
     }
   ]
 }

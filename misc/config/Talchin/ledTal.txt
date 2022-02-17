@@ -1,14 +1,4 @@
-#$ TITLE: Default 4.3 LED settings
-#$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: LEDS
-#$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, leds
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets LED settings to 4.3 defaults
-#$ DESCRIPTION: Options: LED, colour or mode_color resets.
-
-# led designations
-
+# led
 led 0 0,0::C:0
 led 1 0,0::C:0
 led 2 0,0::C:0
@@ -53,8 +43,7 @@ set ledstrip_beacon_period_ms = 500
 set ledstrip_beacon_percent = 50
 set ledstrip_beacon_armed_only = OFF
 
-# colour table
-
+# color
 color 0 0,0,0
 color 1 0,255,255
 color 2 0,0,255
@@ -72,8 +61,7 @@ color 13 330,0,255
 color 14 0,0,0
 color 15 0,0,0
 
-# mode_colors
-
+# mode_color
 mode_color 0 0 1
 mode_color 0 1 11
 mode_color 0 2 2

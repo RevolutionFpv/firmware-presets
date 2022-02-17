@@ -1,0 +1,4 @@
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+set rc_smoothing = ON

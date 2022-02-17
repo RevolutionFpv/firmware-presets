@@ -1,0 +1,75 @@
+#$ TITLE: Revolution FPV Tunnig 5 pouce HD Profile By TalChin
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rates, revolution fpv, revolutionFPV, TalChin, talchin, Talchin
+#$ AUTHOR: TalChin / Revolution FPV
+#$ DESCRIPTION: Bienvenue dans l'expérience RevolutionFPV !
+#$ DESCRIPTION: Rate sBang avec choix du TPA
+#$ INCLUDE: misc/config/RatesSbangTal.txt
+
+# -- choix profil a utiliser  --
+
+#$ OPTION_GROUP BEGIN : Choix du profil à utilisé.
+#$ OPTION BEGIN (CHECKED): Profil 1
+profile 0
+rateprofile 0
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Profil 2
+profile 1
+rateprofile 1
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Profil 3
+profile 2
+rateprofile 2
+#$ OPTION END
+#$ OPTION_GROUP END
+
+# -- choix config gps --
+
+
+# -- choix config osd --
+#$ OPTION_GROUP BEGIN : Avec GPS
+#$ OPTION BEGIN (UNCHECKED): GPS Avec LQ
+set osd_profile = 2
+set rssi_channel = 8
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): GPS Avec RSSI
+set osd_profile = 2
+set rssi_channel = 0
+#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Sans GPS
+#$ OPTION BEGIN (UNCHECKED): Avec LQ
+set osd_profile = 1
+set rssi_channel = 8
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Avec RSSI
+set osd_profile = 1
+set rssi_channel = 0
+#$ OPTION END
+#$ OPTION_GROUP END
+
+
+# -- choix config link rc --
+
+
+
+# -- choix config filtre et pid --
+
+
+
+# -- choix helice --
+
+
+
+# -- choix rate  --
+
+
+
+# -- choix --
+
+
+
+# -- choix --

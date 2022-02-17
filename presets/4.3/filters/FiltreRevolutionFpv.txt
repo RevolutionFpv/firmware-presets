@@ -1,0 +1,12 @@
+#$ TITLE: Revolution FPV Filtre By TalChin
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: filtre, revolutionFPV
+#$ AUTHOR: TalChin / Revolution FPV
+#$ DESCRIPTION: Configuration du Crossfire.
+#$ DESCRIPTION: WARNING: Assurez-vous ABSOLUMENT que la case > ADC Filter n'est pas cochée sur la radio et que vos TX sont toutes à jour avec les dernières EdgeTX, OpenTX ou FreedomTX.
+#$ DESCRIPTION: Il existe actuellement 2 types de protocole Crossfire, CFV3 si vous utilisez une radio TBS et CFV2 si votre radio fonctionne avec Open/EdgeTX.
+#$ DESCRIPTION: Le Crossfire dynamique n'est pas recommandé, le verrouillage à 150Hz pour le LR ou 50Hz pour le Freestyle/Race est préférable.
+
+
